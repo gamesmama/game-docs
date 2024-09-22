@@ -16,10 +16,10 @@ POST {BASE_URL}/v1/token
 
 ```json
 {
-  code: "login-sucess",
-  message: "Login Successfully",
-  data: {
-    token: "AAAA.BBB.CCC"
+  "code": "login-sucess",
+  "message": "Login Successfully",
+  "data": {
+    "token": "AAAA.BBB.CCC"
   }
 }
 ```
@@ -30,8 +30,8 @@ JWT Payload 可以包含一些非敏感用户数据，方便后端针对用户�
 
 ```json
 {
-  user: {
-    id: 123,
+  "user": {
+    "id": 123,
     ...
   }
 }
