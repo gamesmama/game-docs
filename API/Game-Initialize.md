@@ -33,7 +33,7 @@ Authorization: Bearer {JWT}
 			],
 			"symbols": [
 				{
-					"filename": "xxx.png"m
+					"filename": "xxx.png",
 					"scatter": false,
 					"wild": false,
 					"free": false,
