@@ -14,8 +14,8 @@ Authorization: Bearer {JWT}
 
 ```json
 {
-	"code": "",
-	"message": "",
+	"code": "get_game_data",
+	"message": "Get Game Data",
 	"data": {
 		"game": "Game Model",
 		"preloaderImgUrl": ".../preloader.svg",
@@ -57,7 +57,8 @@ Authorization: Bearer {JWT}
 				...
 			],
 			"syms": [
-				".../x.png", ....
+				".../x.png", 
+				....
 			],
 			"paytable": [
 				{
@@ -86,12 +87,12 @@ Authorization: Bearer {JWT}
 			"play": "/game/play"
 		},
 		"sounds": {
-			"click" :'audio/games/slots/click.wav',
-			"lose" :'audio/games/slots/lose.wav',
-			"spin" :'audio/games/slots/spin.wav',
-			"start" :'audio/games/slots/start.wav',
-			"stop" :'audio/games/slots/stop.wav',
-			"win" :'audio/games/slots/win.wav',	
+			"click" : "audio/games/slots/click.wav",
+			"lose" : "audio/games/slots/lose.wav",
+			"spin" : "audio/games/slots/spin.wav",
+			"start" : "audio/games/slots/start.wav",
+			"stop" : "audio/games/slots/stop.wav",
+			"win" : "audio/games/slots/win.wav",	
 		}
 
 
